@@ -1,0 +1,7 @@
+fun main() {
+    var tempC: Int = 31
+    val tempF  = (9 * tempC + 160) /5
+    
+    println("A temperatura em graus Fahrenheit é: $tempF")
+    
+}
