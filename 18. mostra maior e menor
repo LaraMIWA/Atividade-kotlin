@@ -1,0 +1,36 @@
+fun main() {
+    val numero1: Int = 43
+    val numero2: Int = 65
+    val numero3: Int = 5
+    val numero4: Int = 60
+    val numero5: Int = 55
+    var maiorNumero = numero1
+    var menorNumero = numero1
+    
+    if (numero2 > maiorNumero) {
+        maiorNumero = numero2
+    } else if (numero2 < menorNumero) {
+        menorNumero = numero2
+    }
+
+    if (numero3 > maiorNumero) {
+        maiorNumero = numero3
+    } else if (numero3 < menorNumero) {
+        menorNumero = numero3
+    }
+
+    if (numero4 > maiorNumero) {
+        maiorNumero = numero4
+    } else if (numero4 < menorNumero) {
+        menorNumero = numero4
+    }
+
+    if (numero5 > maiorNumero) {
+        maiorNumero = numero5
+    } else if (numero5 < menorNumero) {
+        menorNumero = numero5
+    }
+    
+    println("O maior número é: $maiorNumero")
+    println("O menor número é: $menorNumero")
+}
