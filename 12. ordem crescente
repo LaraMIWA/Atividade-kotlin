@@ -1,0 +1,9 @@
+fun main() {
+    val numero1: Int = 40
+    val numero2: Int = 77
+    val numero3: Int = 33
+    val numeros = listOf(numero1, numero2, numero3)
+    val numerosOrdenados = numeros.sorted()
+     
+    println("Os números em ordem crescente são: ${numerosOrdenados.joinToString(", ")}")
+}
