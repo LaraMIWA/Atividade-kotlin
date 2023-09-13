@@ -1,0 +1,9 @@
+fun main() {
+    val valor: Int = 75
+    
+    if (valor >= 1 && valor <= 9) {
+        println("O valor está na faixa permitida.")
+    } else {
+        println("O valor está fora da faixa permitida.")
+    }
+}
