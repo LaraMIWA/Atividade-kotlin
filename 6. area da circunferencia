@@ -1,0 +1,6 @@
+fun main() {
+    val raio: Int = 14
+    val area = 3.14159 * raio * raio
+    
+    println("A área da circunferência com raio $raio é igual a $area ")
+}
