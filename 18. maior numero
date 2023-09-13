@@ -1,0 +1,13 @@
+fun main() {
+    val numero1: Int = 10
+    val numero2: Int = 30
+    val numero3: Int = 5
+    
+    if (numero1 > numero2 && numero1 > numero3){
+        println("o numero $numero1 é maior")
+    }else if (numero2 >numero1 && numero2 > numero3){
+        println("o numero $numero2 é maior")
+    }else if (numero3 >numero1 && numero3 > numero2){
+        println("o numero $numero3 é maior")
+    }
+}
