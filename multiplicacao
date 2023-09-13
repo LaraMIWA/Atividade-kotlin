@@ -1,0 +1,8 @@
+fun main() {
+    var numero1: Int = 31
+    var numero2: Int = 45
+    val resultado = numero1 * numero2
+    
+    println("A multiplicação de $numero1 e $numero2 é igual a $resultado")
+    
+}
