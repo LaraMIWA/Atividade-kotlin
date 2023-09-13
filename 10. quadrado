@@ -1,0 +1,6 @@
+fun main() {
+    val numero: Int = 19
+    val quadrado = numero * numero
+    
+    println("O quadrado de $numero é $quadrado")
+}
