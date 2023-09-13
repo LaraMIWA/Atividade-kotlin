@@ -1,0 +1,6 @@
+fun main() {
+    val numero: Int = 3006
+    val resto = numero /6
+    
+    println("O resto da divisão de $numero por 6 é igual a $resto")
+}
