@@ -1,0 +1,7 @@
+fun main() {
+    val valor: Int = 2
+    
+    if (valor <= 3) {
+        println("O valor inserido é: $valor")
+    }
+}
