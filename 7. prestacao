@@ -1,0 +1,8 @@
+fun main() {
+    val valor: Double = 1990.90
+    val taxa: Int = 500
+    val prestacao = valor + (valor *(taxa/ 100))
+    
+    println("o valor da prestação em atraso é R$$prestacao")
+    
+}
